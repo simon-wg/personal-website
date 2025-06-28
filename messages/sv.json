@@ -1,4 +1,8 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from sv!"
+	"hello_world": "Hello, {name} from sv!",
+	"welcome": "Välkommen till min portfolio-webbplats!",
+	"about_me": "Om mig",
+	"projects": "Projekt",
+	"contact": "Kontakt"
 }
