@@ -1,38 +1,60 @@
-# sv
+# Personal Website & Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern personal website and portfolio built with SvelteKit, showcasing projects, skills, and professional experience. Features a clean, responsive design with interactive components and optimized performance.
 
-## Creating a project
+## Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Framework:** SvelteKit with TypeScript
+- **Styling:** TailwindCSS with custom components
+- **Package Manager:** Bun
+- **Development:** Storybook for component development
+- **Linting:** ESLint + Prettier with strict TypeScript
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Getting Started
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun install
 ```
+
+Start the development server:
+
+```bash
+bun run dev
+
+# or start and open in browser
+bun run dev -- --open
+```
+
+## Available Scripts
+
+- `bun run dev` - Start development server
+- `bun run build` - Build for production
+- `bun run preview` - Preview production build
+- `bun run check` - TypeScript type checking
+- `bun run lint` - Lint code with ESLint and Prettier
+- `bun run format` - Format code with Prettier
+- `bun run storybook` - Start Storybook development server
 
 ## Building
 
-To create a production version of your app:
+Create a production build:
 
 ```bash
-npm run build
+bun run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+bun run preview
+```
+
+## Features
+
+- Responsive design optimized for all devices
+- Interactive UI components with smooth animations
+- TypeScript for type safety and better developer experience
+- Component-driven development with Storybook
+- Optimized performance and accessibility
