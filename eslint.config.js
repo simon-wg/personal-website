@@ -40,5 +40,11 @@ export default ts.config(
 			}
 		}
 	},
+	{
+		files: ['src/lib/FlagIcon.svelte'],
+		rules: {
+			'svelte/no-at-html-tags': 'off'
+		}
+	},
 	storybook.configs['flat/recommended']
 );

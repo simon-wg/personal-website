@@ -56,7 +56,7 @@
 			<h3 class="mb-8 text-2xl font-bold text-gray-800">{m.looking_for_something()}</h3>
 			<div class="grid gap-6 md:grid-cols-3">
 				<Card
-					Icon={UserRound}
+					CardIcon={UserRound}
 					strokeWidth="2.5"
 					iconClass="h-6 w-6 text-white"
 					iconBackground="bg-gradient-to-r from-red-400 to-orange-300 size-12"
@@ -66,7 +66,7 @@
 				/>
 
 				<Card
-					Icon={Blocks}
+					CardIcon={Blocks}
 					strokeWidth="2.5"
 					iconClass="h-6 w-6 text-white"
 					iconBackground="bg-gradient-to-r from-orange-300 to-amber-200 size-12"
@@ -75,7 +75,7 @@
 					href="/projects"
 				/>
 				<Card
-					Icon={Mail}
+					CardIcon={Mail}
 					strokeWidth="2.5"
 					iconClass="h-6 w-6 text-white"
 					iconBackground="bg-gradient-to-r from-amber-200 to-red-400 size-12"

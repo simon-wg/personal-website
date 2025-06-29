@@ -1,8 +1,9 @@
 <script lang="ts">
 	import type { IconProps } from '@lucide/svelte';
+	import type { Component } from 'svelte';
 
 	interface CardProps {
-		Icon: import('svelte').Component<IconProps, {}, ''>;
+		CardIcon: Component<IconProps>;
 		strokeWidth?: string;
 		iconClass?: string;
 		iconBackground?: string;
@@ -11,7 +12,7 @@
 		href?: string;
 	}
 
-	const { Icon, strokeWidth, iconClass, iconBackground, title, description, href }: CardProps =
+	const { CardIcon, strokeWidth, iconClass, iconBackground, title, description, href }: CardProps =
 		$props();
 </script>
 
@@ -23,7 +24,7 @@
 >
 	<div class="mb-4 flex justify-center">
 		<div class="flex items-center justify-center rounded-full {iconBackground}">
-			<Icon {strokeWidth} class={iconClass} />
+			<CardIcon {strokeWidth} class={iconClass} />
 		</div>
 	</div>
 	<h3 class="mb-3 text-xl font-semibold text-gray-800">{title}</h3>

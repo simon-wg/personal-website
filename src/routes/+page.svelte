@@ -32,7 +32,7 @@
 			<h2 class="mb-12 text-center text-3xl font-bold text-gray-800">{m.what_i_do()}</h2>
 			<div class="grid gap-8 md:grid-cols-3">
 				<Card
-					Icon={SquareChevronRight}
+					CardIcon={SquareChevronRight}
 					strokeWidth="2.5"
 					iconClass="h-8 w-8 text-white"
 					iconBackground="bg-gradient-to-r from-red-400 to-orange-300 size-16"
@@ -41,7 +41,7 @@
 				/>
 
 				<Card
-					Icon={CodeXml}
+					CardIcon={CodeXml}
 					strokeWidth="2.5"
 					iconClass="h-8 w-8 text-white"
 					iconBackground="bg-gradient-to-r from-orange-300 to-amber-200 size-16"
@@ -50,7 +50,7 @@
 				/>
 
 				<Card
-					Icon={Zap}
+					CardIcon={Zap}
 					strokeWidth="2.5"
 					iconClass="h-8 w-8 text-white"
 					iconBackground="bg-gradient-to-r from-amber-200 to-red-400 size-16"
