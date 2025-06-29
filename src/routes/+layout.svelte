@@ -1,10 +1,13 @@
 <script lang="ts">
+	import Footer from '$components/Footer.svelte';
+	import Header from '$components/Header.svelte';
 	import '../app.css';
-	import Navbar from '../stories/Navbar.svelte';
 
 	let { children } = $props();
 </script>
 
-<Navbar/>
+<Header />
 
 {@render children()}
+
+<Footer />
